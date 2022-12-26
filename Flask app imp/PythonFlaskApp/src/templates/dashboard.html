@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title> Health Dashbord</title>
+
+</head>
+<br>
+<br>
+ <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+
+     <a class="my-0 mr-md-auto text-dark" href="/">Health App</a>
+     <a a class="my-0 mr-md-auto text-dark">Welcome {{ namee }}!</a>
+        <a class="p-2 text-dark" href="/static/ABOUT APP.htm" title="About">About</a>
+
+        <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="/" title="Home">Home</a>
+
+          <a class="p-2 text-dark" href="{{ url_for('logout') }}">Logout</a>
+        </nav>
+    </div>
+    <br class="dashboard-section">
+        <div style="text-align: match-parent; ">
+        <strong>Welcome to Health and Lifestyle Web App</strong></div>
+        <br>   <mark>Practical tips cover the basics of healthy eating and can help you make healthier choices.</mark><br>
+
+        <br>The key to a healthy diet is to eat the right amount of calories for how active you are so you balance the energy you consume with the energy you use.<br>
+
+      <br>If you eat or drink more than your body needs, you'll put on weight because the energy you do not use is stored as fat. If you eat and drink too little, you'll lose weight.<br>
+
+<br>You should also eat a wide range of foods to make sure you're getting a balanced diet and your body is receiving all the nutrients it needs.<br>
+
+<br>It's recommended that men have around 2,500 calories a day (10,500 kilojoules). Women should have around 2,000 calories a day (8,400 kilojoules).</br>
+
+    <br>  Most adults in India are eating more calories than they need and should eat fewer calories.</div>
+            Clinical reference and diagnostic apps: They assist doctors and practitioners with managing clinical practice and medical exams.
+Telemedicine apps: Helps provide virtual patient care by licensed practitioners and doctors.
+Health management apps: Aids individuals in assessing their health conditions such as diabetes, mental health, cholesterol level, heart rate, and more.
+Wellness & Fitness apps: Includes nutrition-tracking apps that help count calories, stress-management apps, sleep apps and other tracking apps that assist individuals to live healthier lives.
+There is an interesting blog that points out the importance of developing a modern-day mHealth app to serve patients better. And we have made it insightful and informative for your read!</br>
+
+<mark><br>Dear User You are Logged in Please click on the link to get more details</mark>
+<nav class="my-3 my-md-3 mr-md-0">
+        <a class="p-2 text-dark" href="{{ url_for('freehealth') }}" title="Free Health Tips On Food">Free Health Tips On Food</a>
+
+          <a class="p-2 text-dark" href="{{ url_for('freeexercise') }}" title="Free Health Tips On Lifestyle" > Free Health Tips On Lifestyle</a>
+    <a class="p-2 text-dark" href="{{ url_for('benifitsOfDiffExer') }}" title="Benefits of different exercises" > Benefits of different exercises</a>
+        </nav>
+        </p>
+
+    </section>
+</body>
+</html>

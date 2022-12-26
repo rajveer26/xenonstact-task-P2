@@ -1,0 +1,32 @@
+.table-section{
+border: 2px solid blueviolet;
+border-radius: 5px;
+    padding: 20px;
+
+display:inline-block;
+    font-size: 20px;
+    align-items: center;
+
+background-color:lightblue;
+    text-align: center;
+
+margin-left: 588px;
+
+margin-top:40px;
+}
+.anchor-button
+{
+    border: 5px solid coral;
+border-radius: 5px;
+    padding: 2px;
+
+display:inline-block;
+    margin: 10px;
+    font-size: 25px;
+    background-color: burlywood;
+}
+
+.gender-options
+{
+    list-style: none;
+}

@@ -1,0 +1,81 @@
+<!doctype html>
+<br lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/style.css')}}">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Heath App</title>
+  </head>
+<body class="bg-nav">
+  <br>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <a class="my-0 mr-md-auto text-dark" href="/">Health App</a>
+
+        <a class="p-2 text-dark" href="/static/ABOUT APP.htm" title="About">About</a>
+
+        <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="/" title="Home">Home</a>
+
+          <a class="p-2 text-dark" href="{{ url_for('signIn') }}">Log In / Register</a>
+        </nav>
+    </div>
+    <div class="container text-light display">
+
+    
+
+     <div style="text-align: center;">
+      <h1>Welcome to Health and Lifestyle Web App </h1>
+
+    </div>
+    <div class="container my-3 text-light display">
+    <small>
+        A healthy lifestyle is about more than just proper nutrition and consistent exercise. Getting enough sleep, taking care of your body and mind, and managing things like medications and doctor’s appointments also play important roles in staying healthy.
+
+A good app can be a great way to manage it all. That’s why Healthline tested a variety of different healthy lifestyle apps. We chose the year’s best based on content, reliability, and user reviews.
+    </small>
+    </div>
+    <div class="container my-0">
+    <h4>What are Healthcare Mobile Apps?</h4>
+<small>Supported by smartphones and tablet devices, they enable medical and public health practices with new & innovative ways to deliver healthcare services outside traditional care settings. Further, they supposedly are a potential resource to enhance the health care professionals’ productivity and improve patient health outcomes.
+
+    They can be broadly classified into listed categories:</small>
+
+Clinical reference and diagnostic apps: They assist doctors and practitioners with managing clinical practice and medical exams.
+Telemedicine apps: Helps provide virtual patient care by licensed practitioners and doctors.
+Health management apps: Aids individuals in assessing their health conditions such as diabetes, mental health, cholesterol level, heart rate, and more.
+Wellness & Fitness apps: Includes nutrition-tracking apps that help count calories, stress-management apps, sleep apps and other tracking apps that assist individuals to live healthier lives.
+        There is an interesting blog that points out the importance of developing a modern-day mHealth app to serve patients better. And we have made it insightful and informative for your read!
+
+<nav class="my-3 my-md-3 mr-md-0">
+        <a class="p-2 text-light" href="{{ url_for('signIn') }}" title="Free Health Tips On Food">Free Health Tips On Food</a>
+
+          <a class="p-2 text-light" href="{{ url_for('signIn') }}" title="Free Health Tips On Lifestyle" > Free Health Tips On Lifestyle</a>
+    <a class="p-2 text-light" href="{{ url_for('signIn') }}" title="Benefits of different exercises" > Benefits of different exercises</a>
+        </nav>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    </div>
+  </body>
+
+</html>
