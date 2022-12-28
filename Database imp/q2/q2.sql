@@ -99,4 +99,4 @@ HAVING SUM(sg.total_submissions) +
        SUM(vg.total_views) +
        SUM(vg.total_unique_views) > 0
 ORDER BY con.contest_id;
-
+.
