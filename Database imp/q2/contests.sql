@@ -13,3 +13,4 @@ create table `contests` (
 insert into `contests` (`contest_id`, `interview_id`, `name`) values('1','17973','Nitin');
 insert into `contests` (`contest_id`, `interview_id`, `name`) values('2','79153','Riya');
 insert into `contests` (`contest_id`, `interview_id`, `name`) values('3','80275','Chandan');
+.
