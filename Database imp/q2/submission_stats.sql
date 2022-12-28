@@ -18,3 +18,4 @@ insert into `submission_stats` (`challenge_id`, `total_submissions`, `total_acce
 insert into `submission_stats` (`challenge_id`, `total_submissions`, `total_accepted_submissions`) values('72974','68','24');
 insert into `submission_stats` (`challenge_id`, `total_submissions`, `total_accepted_submissions`) values('72974','82','14');
 insert into `submission_stats` (`challenge_id`, `total_submissions`, `total_accepted_submissions`) values('47127','28','11');
+.
