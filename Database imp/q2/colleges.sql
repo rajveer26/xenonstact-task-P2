@@ -12,3 +12,4 @@ create table `colleges` (
 insert into `colleges` (`college_id`, `contest_id`) values('11219','66406');
 insert into `colleges` (`college_id`, `contest_id`) values('32473','66556');
 insert into `colleges` (`college_id`, `contest_id`) values('56685','94828');
+.
