@@ -13,3 +13,4 @@ insert into `challenges` (`challenge_id`, `college_id`) values('18765','11219');
 insert into `challenges` (`challenge_id`, `college_id`) values('47127','11219');
 insert into `challenges` (`challenge_id`, `college_id`) values('60292','32473');
 insert into `challenges` (`challenge_id`, `college_id`) values('72974','56685');
+.
