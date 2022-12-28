@@ -18,3 +18,4 @@ insert into `view_stats` (`challenge_id`, `total_views`, `total_unique_views`) v
 insert into `view_stats` (`challenge_id`, `total_views`, `total_unique_views`) values('60292','11','10');
 insert into `view_stats` (`challenge_id`, `total_views`, `total_unique_views`) values('72974','41','15');
 insert into `view_stats` (`challenge_id`, `total_views`, `total_unique_views`) values('75516','75','11');
+.
